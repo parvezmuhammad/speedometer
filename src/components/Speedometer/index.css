@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 50px;
+  font-family: 'Roboto';
+}
+.speedometer {
+  width: 60%;
+}
+.small-heding {
+  color: #ffffff;
+}
+.speed-para {
+  color: #cbd5e1;
+}
+.button-container {
+  diplay: flex;
+  flex-direction: row;
+}
+.button1 {
+  background-color: #0b69ff;
+  padding: 15px;
+  margin-right: 10px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.button2 {
+  background-color: #0b69ff;
+  cursor: pointer;
+  outline: none;
+  font-weight: 600;
+  padding: 15px;
+  margin: 1px;
+  color: #ffffff;
+}
